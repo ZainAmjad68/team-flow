@@ -30,6 +30,7 @@ const client = new ApolloClient({
 });
 
 function App() {
+  console.log('Starting Up the App!');
   return (
     <>
     <ApolloProvider client={client}>
